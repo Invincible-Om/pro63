@@ -75,18 +75,18 @@ export default class HomeScreen extends Component{
         />
         <View style={styles.inputBoxContainer}>
       
-        <Text 
-           onChangeText={text => {
-              this.setState({
-                text: text,
-                isSearchPressed: false,
-                word  : "Loading...",
-                lexicalCategory :'',
-                examples : [],
-                definition : ""
-              });
-           }}
-        />
+//         <Text 
+//            onChangeText={text => {
+//               this.setState({
+//                 text: text,
+//                 isSearchPressed: false,
+//                 word  : "Loading...",
+//                 lexicalCategory :'',
+//                 examples : [],
+//                 definition : ""
+//               });
+//            }}
+//         />
 {
       //  <input 
       //      onChangeText={text => {
